@@ -1032,7 +1032,7 @@ button {
 }
 header.site-header{
 	position: relative;
-	max-height: 90vh;
+	/* max-height: max-content; */
 	/* overflow: hidden; */
 }
 
@@ -1050,8 +1050,8 @@ header.site-header{
 .hero-part{
 	position: relative;
 	width: 100%;
-	min-height: 40vw;
-	max-height: 60vw;
+	height: 30vw;
+	max-height: 450px;
 	/* max-height: 60vh; */
 	/* min-height: 30vh;
 	height:60vh ; */
@@ -1088,7 +1088,7 @@ header.site-header .site-branding{
 	/* height: 100%; */
 	width: 100%;
 	/* border: 1px solid red; */
-		/* height: 50vh; */
+	
 }
 .site-branding .site-logo{
 	position: absolute;
